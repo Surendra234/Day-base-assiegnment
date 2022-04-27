@@ -1,13 +1,13 @@
 echo "enter a number :"
 
-read n
+read x
 
 
 for (( i=2;i<=n;i++ ))
 
 do
 
-		echo  = $(( i^n )) ;
+		echo  = $(( i^x )) ;
 done
 
 
